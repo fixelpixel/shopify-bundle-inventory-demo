@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "REPLACE_WITH_YOUR_APP_CLIENT_ID"
+name = "Bundle inventory adjuster"
+handle = "bundle-inventory-adjuster"
+application_url = "https://app.example.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2024-07"
+
+[[webhooks.subscriptions]]
+topics = ["orders/create"]
+uri = "/webhooks/orders"
+
+[[webhooks.subscriptions]]
+topics = ["app/uninstalled"]
+uri = "/webhooks/app/uninstalled"
+
+
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_inventory,read_locations,read_metaobject_definitions,read_metaobjects,read_orders,read_products,write_inventory,write_locations,write_metaobject_definitions,write_metaobjects,write_orders,write_products"
+
+[auth]
+redirect_urls = [ "https://app.example.com/auth/callback" ]
+
+[pos]
+embedded = false
