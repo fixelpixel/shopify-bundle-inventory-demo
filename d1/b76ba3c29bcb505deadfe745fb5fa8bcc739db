@@ -1,0 +1,115 @@
+.dockerignore
+  s_7bfb3bc734b0d6::t_298af19c1b6d06 1-3
+.editorconfig
+  s_7bfb3bc734b0d6::t_0e8131d74781af 1-15
+.env.example
+  s_7bfb3bc734b0d6::t_f4d1682f4f4283 1-5
+.eslintignore
+  s_7bfb3bc734b0d6::t_21393c77281422 1-6
+.eslintrc.cjs
+  s_7bfb3bc734b0d6::t_a89bc252be4d95 1-13
+.gitignore
+  s_7bfb3bc734b0d6::t_5a4d4ee41905e9 1-43
+.graphqlrc.js
+  s_7bfb3bc734b0d6::t_2580a8d45ca539 1-38
+.npmrc
+  s_7bfb3bc734b0d6::t_1471c193ec2fe3 1-4
+.prettierignore
+  s_7bfb3bc734b0d6::t_d786ea7d14fc4d 1-7
+CHANGELOG.md
+  s_7bfb3bc734b0d6::t_97e00337b3e907 1-76
+Dockerfile
+  s_7bfb3bc734b0d6::t_a67784f3887592 1-21
+LICENSE
+  s_7bfb3bc734b0d6::t_72d0f3783cf5a9 1-202
+Procfile
+  s_7bfb3bc734b0d6::t_0715f11532032d 1
+README.md
+  s_7bfb3bc734b0d6::t_337bbc676dceed 1-26
+app/db.server.js
+  s_7bfb3bc734b0d6::t_c1f8bd1fb53ab3 1-11
+app/entry.server.jsx
+  s_7bfb3bc734b0d6::t_4fff835ae4921b 1-51
+app/root.jsx
+  s_7bfb3bc734b0d6::t_cc7fdb5ed949b3 1-30
+app/routes.js
+  s_7bfb3bc734b0d6::t_e89153d88c63bb 1-3
+app/routes/_index/route.jsx
+  s_7bfb3bc734b0d6::t_4c993312d6ba25 1-55
+app/routes/_index/styles.css
+  s_7bfb3bc734b0d6::t_92c9b374b54bbc 1-20
+app/routes/_index/styles.module.css
+  s_7bfb3bc734b0d6::t_da262171a331c7 1-73
+app/routes/app._index.jsx
+  s_7bfb3bc734b0d6::t_0da473b85ec742 1-96
+app/routes/app.jsx
+  s_7bfb3bc734b0d6::t_32bf646321ea77 1-38
+app/routes/auth.$.jsx
+  s_7bfb3bc734b0d6::t_165a78e77743c2 1-7
+app/routes/auth.login/error.server.jsx
+  s_7bfb3bc734b0d6::t_a0df5407b0de32 1-11
+app/routes/auth.login/route.jsx
+  s_7bfb3bc734b0d6::t_79f12f161f0ce7 1-65
+app/routes/webhooks.app.scopes_update.jsx
+  s_7bfb3bc734b0d6::t_b0f016cd1d2b3e 1-22
+app/routes/webhooks.app.uninstalled.jsx
+  s_7bfb3bc734b0d6::t_09ce6a0b2f5ce3 1-16
+app/routes/webhooks.orders.jsx
+  s_7bfb3bc734b0d6::t_3891e11f67e583 1-3
+app/services/inventory.server.js
+  s_7bfb3bc734b0d6::t_f9651faa357bfd 1-25
+app/services/order-webhook.server.js
+  s_7bfb3bc734b0d6::t_d9717187ffebbd 1-426
+app/services/shopify-inventory.server.js
+  s_7bfb3bc734b0d6::t_61848db7d6e0c7 1-50
+app/shopify.server.js
+  s_7bfb3bc734b0d6::t_2274ed25d809c2 1-35
+app/utils/variantResolver.js
+  s_7bfb3bc734b0d6::t_4fd73cf465a549 1-63
+env.d.ts
+  s_7bfb3bc734b0d6::t_545dca9f5fc430 1-2
+package-lock.json
+  s_7bfb3bc734b0d6::t_594173c4cc3940 1-16627
+package.json
+  s_dcf38b890a8cb4::t_eaf54e9dc05c06 1-76
+prisma/migrations/20250620173604_init/migration.sql
+  s_7bfb3bc734b0d6::t_707539239f1c5d 1-61
+prisma/migrations/migration_lock.toml
+  s_7bfb3bc734b0d6::t_4882d3af33936e 1-3
+prisma/schema.prisma
+  s_7bfb3bc734b0d6::t_0ff706277939df 1-58
+remix.config.js
+  s_7bfb3bc734b0d6::t_41efade7867356 1-20
+shopify.app.toml
+  s_7bfb3bc734b0d6::t_f196306f79f4e2 1-33
+shopify.web.toml
+  s_7bfb3bc734b0d6::t_1eca236de83d5c 1-7
+tsconfig.json
+  s_7bfb3bc734b0d6::t_8ff5418c21580b 1-21
+vite.config.js
+  s_7bfb3bc734b0d6::t_7f8ff83a8a566d 1-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d1b76ba3c29bcb505deadfe745fb5fa8bcc739db",
+  "prompts": {},
+  "sessions": {
+    "s_7bfb3bc734b0d6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18a99-186e-7fa0-98fa-9791ad61db79",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Daniil Maximkin <75640203+fixelpixel@users.noreply.github.com>"
+    },
+    "s_dcf38b890a8cb4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0fbae548-4260-4ebb-b6aa-7886504ede1e",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Daniil Maximkin <75640203+fixelpixel@users.noreply.github.com>"
+    }
+  }
+}
